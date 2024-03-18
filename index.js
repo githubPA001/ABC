@@ -1,4 +1,4 @@
-function MyButton({ title }: { title: string }) {
+function MyButton() {
     return (
       <button>{title}</button>
     );
