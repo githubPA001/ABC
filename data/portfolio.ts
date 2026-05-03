@@ -74,8 +74,8 @@ export const profile = {
 export const timeline: TimelineItem[] = [
   {
     label: "Education",
-    title: "B.Sc in Computer Science",
-    meta: "University of Computer Studies (Yangon) | Graduated 2019",
+    title: "Bachelor of Computer Science (Yangon)",
+    meta: "B.C.S.C(Yangon) | Graduated 2019",
     points: [
       "Built a strong foundation in programming, databases, software design, and computer science fundamentals.",
     ],
