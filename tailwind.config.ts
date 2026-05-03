@@ -2,12 +2,18 @@ import type { Config } from "tailwindcss";
 import typography from "@tailwindcss/typography";
 
 export default {
-  content: ["./index.html", "./src/**/*.{ts,tsx}"],
   darkMode: "class",
+  content: [
+    "./app/**/*.{ts,tsx,mdx}",
+    "./components/**/*.{ts,tsx}",
+    "./content/**/*.{mdx,md}",
+    "./data/**/*.{ts,tsx}",
+    "./lib/**/*.{ts,tsx}",
+  ],
   theme: {
     extend: {
       boxShadow: {
-        soft: "0 16px 48px rgba(15, 23, 42, 0.08)",
+        soft: "0 24px 80px rgba(2, 6, 23, 0.48)",
       },
     },
   },

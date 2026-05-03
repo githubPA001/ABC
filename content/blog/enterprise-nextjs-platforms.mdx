@@ -1,0 +1,40 @@
+---
+title: "Designing Next.js Platforms for Enterprise Scale"
+description: "A practical framing for keeping App Router systems maintainable as product surfaces, stakeholders, and delivery demands grow."
+publishedAt: "2026-04-18"
+readingTime: "6 min read"
+tags:
+  - next.js
+  - architecture
+  - scalability
+featured: true
+---
+
+Enterprise frontend work becomes difficult when teams treat a growing application as a bundle of pages instead of a platform.
+
+## What changes at senior scale
+
+Once the audience expands beyond a single product team, the architecture must support:
+
+- clear ownership boundaries
+- predictable rendering patterns
+- routing that mirrors business capabilities
+- shared UX standards without slowing delivery
+
+In practice, that means designing App Router segments around business intent instead of raw component reuse.
+
+## Why server-first matters
+
+Server-rendered views are useful because they lower the amount of client orchestration required for operational dashboards and content-heavy surfaces.
+
+They also make it easier to reason about:
+
+- data fetching ownership
+- SEO and metadata concerns
+- loading strategy for large information surfaces
+
+## The leadership layer
+
+Technical leadership is not only about choosing the right rendering model. It is also about making the tradeoffs visible to other engineers so the architecture stays coherent as more people contribute.
+
+That means documenting patterns early and keeping the platform boring in the best possible way.

@@ -1,0 +1,39 @@
+---
+title: "Operational Guardrails for Lightweight Data Pipelines"
+description: "How to keep partner-feed utilities dependable without turning them into oversized platform projects."
+publishedAt: "2026-04-09"
+readingTime: "5 min read"
+tags:
+  - data
+  - linux
+  - ci-cd
+featured: true
+---
+
+Not every data problem needs a large platform. Sometimes the right answer is a disciplined utility with excellent failure behavior.
+
+## Make errors legible
+
+Data utilities should fail in ways that help engineers and analysts act quickly.
+
+Useful guardrails include:
+
+- validation summaries that point to the broken contract
+- versioned output artifacts
+- deterministic CLI execution for CI and scheduled jobs
+
+## Optimize for repeatability
+
+Linux-friendly tooling matters because the utility will eventually live in automation, not only on a developer machine.
+
+That means designing for:
+
+- explicit inputs and outputs
+- reproducible execution
+- clear logs with enough context to debug the feed
+
+## Keep the solution proportional
+
+Senior engineering judgment shows up in restraint.
+
+The utility should solve the delivery risk cleanly without expanding into a platform no one wanted to own.
