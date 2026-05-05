@@ -136,8 +136,8 @@ export const projectCaseStudies: ProjectCaseStudy[] = [
     summary:
       "A responsive shopping experience with product catalog, cart flow, payments, and admin-ready data structure.",
     techStack: ["Next.js", "Stripe", "MongoDB", "Tailwind CSS"],
-    liveUrl: "#contact",
-    sourceUrl: "https://github.com/githubPA001",
+    liveUrl: "/demo/e-commerce-platform",
+    sourceUrl: "https://github.com/githubPA001/ABC",
     problem:
       "Customers need a fast store experience while admins need dependable product and order management.",
     architectureOverview:
@@ -180,8 +180,8 @@ export const projectCaseStudies: ProjectCaseStudy[] = [
     summary:
       "A team task board with authentication, project spaces, status workflows, and clean collaboration views.",
     techStack: ["React", "Express.js", "JWT Auth", "PostgreSQL"],
-    liveUrl: "#contact",
-    sourceUrl: "https://github.com/githubPA001",
+    liveUrl: "/demo/task-management-app",
+    sourceUrl: "https://github.com/githubPA001/ABC",
     problem:
       "Small teams need a lightweight place to track work without losing ownership, priority, and deadline context.",
     architectureOverview:
@@ -224,8 +224,8 @@ export const projectCaseStudies: ProjectCaseStudy[] = [
     summary:
       "A messaging interface with live rooms, typing states, online presence, and responsive conversation layout.",
     techStack: ["Socket.io", "Node.js", "React", "MongoDB"],
-    liveUrl: "#contact",
-    sourceUrl: "https://github.com/githubPA001",
+    liveUrl: "/demo/real-time-chat-app",
+    sourceUrl: "https://github.com/githubPA001/ABC",
     problem:
       "Users need instant communication with a clear, reliable interface across desktop and mobile devices.",
     architectureOverview:
@@ -268,8 +268,8 @@ export const projectCaseStudies: ProjectCaseStudy[] = [
     summary:
       "A role-based dashboard for monitoring users, activity, operational metrics, and business health.",
     techStack: ["React", "Chart.js", "Express.js", "Role-based Access"],
-    liveUrl: "#contact",
-    sourceUrl: "https://github.com/githubPA001",
+    liveUrl: "/demo/admin-dashboard",
+    sourceUrl: "https://github.com/githubPA001/ABC",
     problem:
       "Admins need clear operational visibility without switching between spreadsheets and disconnected tools.",
     architectureOverview:
